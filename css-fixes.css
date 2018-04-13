@@ -1,0 +1,35 @@
+/*
+* This goes in child theme style.css
+*/
+
+.quantity, .product-quantity{display:none;}
+
+.td.actions {
+	display: none;
+}
+
+/*
+* This goes in divi css custom
+*/
+
+.woocommerce-page button.button,
+.woocommerce-page button.button.alt,
+.et_pb_contact_submit
+{
+	color: #ffffff;
+}
+
+.et_pb_gutters3.et_pb_footer_columns4 .footer-widget .fwidget {
+    margin-bottom: 10px;
+}
+
+.woocommerce input.button, .woocommerce-page a.button, .woocommerce-page a.button.alt, .woocommerce-page a.button.alt:hover, .woocommerce-page a.button:hover
+
+{
+	color: #ffffff;
+}
+
+.woocommerce button.button:disabled, .woocommerce button.button:disabled[disabled]
+{
+	display: none;
+}
